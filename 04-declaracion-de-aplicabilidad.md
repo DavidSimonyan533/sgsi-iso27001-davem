@@ -16,8 +16,8 @@ Estados: Implantado, Parcial (está en marcha pero le falta algo) y Pendiente (p
 |---|---|
 | Aplican | 90 |
 | No aplican | 3 |
-| Implantados | 49 |
-| Parciales | 37 |
+| Implantados | 48 |
+| Parciales | 38 |
 | Pendientes | 4 |
 
 ## 5. Controles organizativos
@@ -58,7 +58,7 @@ Estados: Implantado, Parcial (está en marcha pero le falta algo) y Pendiente (p
 | 5.32 | Derechos de propiedad intelectual | Sí | Solo se usa software con licencia | Implantado |
 | 5.33 | Protección de los registros | Sí | Contratos e informes se conservan según contrato | Parcial |
 | 5.34 | Privacidad y protección de datos personales | Sí | Riesgo R13. Se tratan datos de clientes y empleados | Implantado |
-| 5.35 | Revisión independiente de la seguridad | Sí | Auditoría interna anual. Documento 06 | Implantado |
+| 5.35 | Revisión independiente de la seguridad | Sí | Auditoría interna anual (documento 06). Falta que la haga alguien independiente | Parcial |
 | 5.36 | Cumplimiento de políticas y normas | Sí | Se comprueba en la auditoría interna | Implantado |
 | 5.37 | Procedimientos operativos documentados | Sí | Riesgo R11. Falta documentar la configuración | Parcial |
 

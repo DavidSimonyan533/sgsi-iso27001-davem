@@ -74,6 +74,15 @@ Fuera del alcance:
 - Los sistemas de los clientes. Se accede a ellos con las condiciones que pone cada cliente.
 - La contabilidad y las nóminas, que lleva una gestoría externa. Se controla como proveedor.
 
+Interfaces y dependencias (4.3 c):
+
+| Con quién | Qué hay en medio | Cómo se controla |
+|---|---|---|
+| Microsoft | Correo, documentos y Teams en Microsoft 365 | Contrato estándar de Microsoft y configuración propia (doble factor, permisos) |
+| Proveedor de hosting | El servidor virtual donde está la web | Contrato con el proveedor. La web y la base de datos las gestionamos nosotros |
+| Gestoría | Datos de empleados para nóminas y contabilidad | Contrato de encargado de tratamiento (riesgo R13) |
+| Clientes | Acceso de los consultores a sus sistemas e intercambio de informes | Las condiciones de cada cliente y el envío de informes por enlace con caducidad |
+
 ## 6. Roles del SGSI
 
 | Rol | Quién | Funciones |
@@ -86,9 +95,11 @@ Fuera del alcance:
 
 ## 7. Objetivos de seguridad (6.2)
 
-| Objetivo | Indicador | Meta |
-|---|---|---|
-| Evitar fugas de información de clientes | Incidentes de confidencialidad al año | 0 |
-| Poder recuperar la información | Pruebas de restauración correctas | 2 al año |
-| Tener al personal formado | Personal con la formación anual hecha | 100 % |
-| Tener los equipos actualizados | Equipos con parches al día | Más del 95 % |
+| Objetivo | Indicador | Meta | Qué se hará | Responsable | Plazo | Cómo se evalúa |
+|---|---|---|---|---|---|---|
+| Evitar fugas de información de clientes | Incidentes de confidencialidad al año | 0 | Informes por enlace con caducidad y clasificación de la información (R03) | Responsable de seguridad | 12 meses | Registro de incidentes, revisado cada trimestre |
+| Poder recuperar la información | Pruebas de restauración correctas | 2 al año | Pruebas de restauración cada 6 meses (R04, R08) | Administrador de sistemas | Cada 6 meses | Registro de pruebas |
+| Tener al personal formado | Personal con la formación anual hecha | 100 % | Formación al entrar y anual, y un simulacro de phishing (R02) | Responsable de seguridad | 12 meses | Registro de formación |
+| Tener los equipos actualizados | Equipos con parches al día | Más del 95 % | Actualizaciones automáticas y revisión mensual (R05) | Administrador de sistemas | Cada mes | Informe mensual de actualizaciones |
+
+Los recursos son las horas del responsable de seguridad y del administrador de sistemas y las licencias que ya tiene la empresa. Los resultados se revisan en la revisión por la dirección.

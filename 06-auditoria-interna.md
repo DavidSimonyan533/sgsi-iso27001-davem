@@ -40,7 +40,7 @@ Agenda:
 | 12 | A.8.22 | La red de invitados está separada | Configuración del router | Conforme |
 | 13 | A.5.19 y A.5.20 | Contratos con proveedores con cláusulas de seguridad | Contratos del hosting y la gestoría | Observación |
 | 14 | A.5.24 | Hay procedimiento de incidentes y registro | Registro de incidentes | Conforme |
-| 15 | 9.3 | Se ha hecho la revisión por la dirección | Acta | Conforme |
+| 15 | 9.3 | Está planificada la revisión por la dirección | Convocatoria de la reunión | Conforme. Se hará después de esta auditoría, con sus resultados |
 
 ## 3. Informe de auditoría
 
